@@ -8,6 +8,7 @@
 }
 .display {
     margin-top: 25px;
+    margin-left: 18px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -17,6 +18,64 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
+    padding-right: 12%;
     font-size: 5.0rem;
   }
+.numbers{
+    display: flex;
+    
+}
+.operators{
+    display: flex;
+    
+}
+.specials{
+    display: flex;
+    margin: 0 auto;
+    width: 450px;
+    justify-content: flex-start;
+}
+.btnSpecial{
+    background: #3232f7;
+    border-radius: 20px;
+    font-size: 70px;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 100px;
+}
+.operators{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    justify-content: flex-end;
+    margin-top: -88px;
+}
+.btnOperator{
+    background: #3232f7;
+    border-radius: 20px;
+    font-size: 70px;
+    display: flex;
+    margin-bottom: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.numbers{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: -433px;
+    margin-left: 50px;
+}
+
+.btnNumbers{
+    background: #3232f7;
+    font-size: 70px;
+    width: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.btnNumbers:nth-child(10){
+    width: 230px;
+}
